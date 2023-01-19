@@ -1,27 +1,25 @@
 header{
-    padding-top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 150px;
+    
     img {
-        width: 1000px;
+        width: 800px;
+        border-radius: 20px;
     }
     h1{
-        
         color: $main-color;
         font: {
             size:70px;
             family: 'PT Sans', sans-serif;
             }
-            
-        
 }
 p{
     text-align: center;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 30px;
 }
-
-     
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }

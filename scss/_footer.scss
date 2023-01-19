@@ -1,7 +1,9 @@
-footer{
-    height: 150px;
+.footer{
+    height: 80px;
     background-color: $main-color;
     color: white;
     padding: 60px 20px 60px 20px;
+    display: flex;
+    justify-content: space-between;
     
 }
