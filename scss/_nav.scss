@@ -1,0 +1,27 @@
+nav {
+    height: 100px;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-left: 60px;
+    background-color: $main-color;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px;
+        list-style-type: none;
+
+        li {
+            margin-right: 50px;
+            color: white;
+            font: {
+                size: 30px;
+                family: 'Spectral', serif;
+                weight: bold;
+            }
+        }
+    }
+}

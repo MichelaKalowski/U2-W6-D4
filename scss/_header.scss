@@ -1,0 +1,27 @@
+header{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 1000px;
+    }
+    h1{
+        
+        color: $main-color;
+        font: {
+            size:70px;
+            family: 'PT Sans', sans-serif;
+            }
+            
+        
+}
+p{
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+     
+}

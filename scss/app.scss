@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'reset';
+@import 'header';
+@import 'nav';
+@import 'main';
+@import 'footer';
+@mixin baseButton ($mainSize){
+    padding: 20px;
+    background-color: $main-color;
+    color: white;
+    border: none;
+    width: $mainSize;
+    border: 2px solid white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.button1{
+    @include baseButton(200px)
+}
+.button2{
+    @include baseButton(100px)
+}
+.button3{
+    @include baseButton(100px)
+}
+.button4{
+    @include baseButton(100px)
+}
+.button5{
+    @include baseButton(100px)
+}
+.button6{
+    @include baseButton(100px)
+}
+.button7{
+    @include baseButton(100px)
+}
